@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9BF09E51A0341A800489F63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BF09E41A0341A800489F63 /* main.m */; };
+		F9BF09E81A0341A800489F63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BF09E71A0341A800489F63 /* AppDelegate.m */; };
+		F9BF09EB1A0341A800489F63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BF09EA1A0341A800489F63 /* ViewController.m */; };
+		F9BF09EE1A0341A800489F63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9BF09EC1A0341A800489F63 /* Main.storyboard */; };
+		F9BF09F01A0341A800489F63 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9BF09EF1A0341A800489F63 /* Images.xcassets */; };
+		F9BF09F31A0341A800489F63 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9BF09F11A0341A800489F63 /* LaunchScreen.xib */; };
+		F9BF09FF1A0341A900489F63 /* TableViewCell_Delay_DeleteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BF09FE1A0341A900489F63 /* TableViewCell_Delay_DeleteTests.m */; };
+		F9BF0A0A1A03427700489F63 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BF0A091A03427700489F63 /* BaseModel.m */; };
+		F9BF0A0D1A0342A600489F63 /* BaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9BF0A0C1A0342A600489F63 /* BaseCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9BF09F91A0341A900489F63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9BF09D71A0341A800489F63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9BF09DE1A0341A800489F63;
+			remoteInfo = "TableViewCell-Delay-Delete";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9BF09DF1A0341A800489F63 /* TableViewCell-Delay-Delete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TableViewCell-Delay-Delete.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9BF09E31A0341A800489F63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9BF09E41A0341A800489F63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F9BF09E61A0341A800489F63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F9BF09E71A0341A800489F63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F9BF09E91A0341A800489F63 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F9BF09EA1A0341A800489F63 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F9BF09ED1A0341A800489F63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9BF09EF1A0341A800489F63 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F9BF09F21A0341A800489F63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F9BF09F81A0341A900489F63 /* TableViewCell-Delay-DeleteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TableViewCell-Delay-DeleteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9BF09FD1A0341A900489F63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9BF09FE1A0341A900489F63 /* TableViewCell_Delay_DeleteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell_Delay_DeleteTests.m; sourceTree = "<group>"; };
+		F9BF0A081A03427700489F63 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		F9BF0A091A03427700489F63 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		F9BF0A0B1A0342A600489F63 /* BaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCell.h; sourceTree = "<group>"; };
+		F9BF0A0C1A0342A600489F63 /* BaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9BF09DC1A0341A800489F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BF09F51A0341A900489F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9BF09D61A0341A800489F63 = {
+			isa = PBXGroup;
+			children = (
+				F9BF09E11A0341A800489F63 /* TableViewCell-Delay-Delete */,
+				F9BF09FB1A0341A900489F63 /* TableViewCell-Delay-DeleteTests */,
+				F9BF09E01A0341A800489F63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9BF09E01A0341A800489F63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9BF09DF1A0341A800489F63 /* TableViewCell-Delay-Delete.app */,
+				F9BF09F81A0341A900489F63 /* TableViewCell-Delay-DeleteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9BF09E11A0341A800489F63 /* TableViewCell-Delay-Delete */ = {
+			isa = PBXGroup;
+			children = (
+				F9BF09E61A0341A800489F63 /* AppDelegate.h */,
+				F9BF09E71A0341A800489F63 /* AppDelegate.m */,
+				F9BF09E91A0341A800489F63 /* ViewController.h */,
+				F9BF09EA1A0341A800489F63 /* ViewController.m */,
+				F9BF0A081A03427700489F63 /* BaseModel.h */,
+				F9BF0A091A03427700489F63 /* BaseModel.m */,
+				F9BF0A0B1A0342A600489F63 /* BaseCell.h */,
+				F9BF0A0C1A0342A600489F63 /* BaseCell.m */,
+				F9BF09EC1A0341A800489F63 /* Main.storyboard */,
+				F9BF09EF1A0341A800489F63 /* Images.xcassets */,
+				F9BF09F11A0341A800489F63 /* LaunchScreen.xib */,
+				F9BF09E21A0341A800489F63 /* Supporting Files */,
+			);
+			path = "TableViewCell-Delay-Delete";
+			sourceTree = "<group>";
+		};
+		F9BF09E21A0341A800489F63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9BF09E31A0341A800489F63 /* Info.plist */,
+				F9BF09E41A0341A800489F63 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9BF09FB1A0341A900489F63 /* TableViewCell-Delay-DeleteTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9BF09FE1A0341A900489F63 /* TableViewCell_Delay_DeleteTests.m */,
+				F9BF09FC1A0341A900489F63 /* Supporting Files */,
+			);
+			path = "TableViewCell-Delay-DeleteTests";
+			sourceTree = "<group>";
+		};
+		F9BF09FC1A0341A900489F63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9BF09FD1A0341A900489F63 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9BF09DE1A0341A800489F63 /* TableViewCell-Delay-Delete */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9BF0A021A0341A900489F63 /* Build configuration list for PBXNativeTarget "TableViewCell-Delay-Delete" */;
+			buildPhases = (
+				F9BF09DB1A0341A800489F63 /* Sources */,
+				F9BF09DC1A0341A800489F63 /* Frameworks */,
+				F9BF09DD1A0341A800489F63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TableViewCell-Delay-Delete";
+			productName = "TableViewCell-Delay-Delete";
+			productReference = F9BF09DF1A0341A800489F63 /* TableViewCell-Delay-Delete.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9BF09F71A0341A900489F63 /* TableViewCell-Delay-DeleteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9BF0A051A0341A900489F63 /* Build configuration list for PBXNativeTarget "TableViewCell-Delay-DeleteTests" */;
+			buildPhases = (
+				F9BF09F41A0341A900489F63 /* Sources */,
+				F9BF09F51A0341A900489F63 /* Frameworks */,
+				F9BF09F61A0341A900489F63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9BF09FA1A0341A900489F63 /* PBXTargetDependency */,
+			);
+			name = "TableViewCell-Delay-DeleteTests";
+			productName = "TableViewCell-Delay-DeleteTests";
+			productReference = F9BF09F81A0341A900489F63 /* TableViewCell-Delay-DeleteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9BF09D71A0341A800489F63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Daniel;
+				TargetAttributes = {
+					F9BF09DE1A0341A800489F63 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					F9BF09F71A0341A900489F63 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = F9BF09DE1A0341A800489F63;
+					};
+				};
+			};
+			buildConfigurationList = F9BF09DA1A0341A800489F63 /* Build configuration list for PBXProject "TableViewCell-Delay-Delete" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9BF09D61A0341A800489F63;
+			productRefGroup = F9BF09E01A0341A800489F63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9BF09DE1A0341A800489F63 /* TableViewCell-Delay-Delete */,
+				F9BF09F71A0341A900489F63 /* TableViewCell-Delay-DeleteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9BF09DD1A0341A800489F63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BF09EE1A0341A800489F63 /* Main.storyboard in Resources */,
+				F9BF09F31A0341A800489F63 /* LaunchScreen.xib in Resources */,
+				F9BF09F01A0341A800489F63 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BF09F61A0341A900489F63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9BF09DB1A0341A800489F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BF09EB1A0341A800489F63 /* ViewController.m in Sources */,
+				F9BF09E81A0341A800489F63 /* AppDelegate.m in Sources */,
+				F9BF0A0D1A0342A600489F63 /* BaseCell.m in Sources */,
+				F9BF0A0A1A03427700489F63 /* BaseModel.m in Sources */,
+				F9BF09E51A0341A800489F63 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BF09F41A0341A900489F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BF09FF1A0341A900489F63 /* TableViewCell_Delay_DeleteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9BF09FA1A0341A900489F63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9BF09DE1A0341A800489F63 /* TableViewCell-Delay-Delete */;
+			targetProxy = F9BF09F91A0341A900489F63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9BF09EC1A0341A800489F63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9BF09ED1A0341A800489F63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9BF09F11A0341A800489F63 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9BF09F21A0341A800489F63 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9BF0A001A0341A900489F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9BF0A011A0341A900489F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9BF0A031A0341A900489F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TableViewCell-Delay-Delete/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F9BF0A041A0341A900489F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TableViewCell-Delay-Delete/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F9BF0A061A0341A900489F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TableViewCell-Delay-DeleteTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewCell-Delay-Delete.app/TableViewCell-Delay-Delete";
+			};
+			name = Debug;
+		};
+		F9BF0A071A0341A900489F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TableViewCell-Delay-DeleteTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewCell-Delay-Delete.app/TableViewCell-Delay-Delete";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9BF09DA1A0341A800489F63 /* Build configuration list for PBXProject "TableViewCell-Delay-Delete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9BF0A001A0341A900489F63 /* Debug */,
+				F9BF0A011A0341A900489F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9BF0A021A0341A900489F63 /* Build configuration list for PBXNativeTarget "TableViewCell-Delay-Delete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9BF0A031A0341A900489F63 /* Debug */,
+				F9BF0A041A0341A900489F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9BF0A051A0341A900489F63 /* Build configuration list for PBXNativeTarget "TableViewCell-Delay-DeleteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9BF0A061A0341A900489F63 /* Debug */,
+				F9BF0A071A0341A900489F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9BF09D71A0341A800489F63 /* Project object */;
+}
